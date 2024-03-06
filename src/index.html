@@ -4,13 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <title>Formulário</title>
 </head>
 
 <body>
     <main>
-        <form action="" id="form"></form>
+        <h1>Formulário com validação em Javascript</h1>
+        <form id="form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" autocomplete="Primeiro nome">
+            <label for="cpf">CPF:</label>
+            <input type="cpf" id="cpf"> <!--TODO: ---------------não sei se está correto-->
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" autocomplete="email@servidor">
+            <label for="password">Senha:</label>
+            <input type="password">
+            <label for="job">Perspectiva Profissional</label>
+            <select name="job" id="job">
+                <option value="yes">Sim</option>
+                <option value="no">Não</option>
+            </select>
+            <label for="message">Mensagem:</label>
+            <textarea name="message" id="message" rows="5"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
     </main>
 </body>
 

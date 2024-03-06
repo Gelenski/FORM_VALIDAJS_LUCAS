@@ -1,3 +1,4 @@
+//Declarando as variáveis
 const form = document.querySelector("#form");
 const nameInput = document.querySelector("#name");
 const cpfInput = document.querySelector("#cpf");
