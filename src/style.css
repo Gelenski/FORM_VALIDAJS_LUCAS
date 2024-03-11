@@ -22,6 +22,7 @@ form {
     background-color: whitesmoke;
     padding: 1.25rem;
     border-radius: 5px;
+    box-shadow: 2px 4px rgba(54, 54, 54, 0.171);
 }
 
 label {
